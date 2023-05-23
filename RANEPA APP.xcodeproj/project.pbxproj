@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA2884312A12C5A600E06C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2884302A12C5A600E06C30 /* Assets.xcassets */; };
+		FA2884332A12C9EA00E06C30 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2884322A12C9EA00E06C30 /* ProfileTableViewCell.swift */; };
+		FA2884362A12D1AE00E06C30 /* headerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2884352A12D1AE00E06C30 /* headerView.xib */; };
+		FA2884382A12D1DF00E06C30 /* headerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2884372A12D1DF00E06C30 /* headerView.swift */; };
+		FAFB7A822A03E3D4005ABF8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB7A812A03E3D4005ABF8D /* AppDelegate.swift */; };
+		FAFB7A842A03E3D4005ABF8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB7A832A03E3D4005ABF8D /* SceneDelegate.swift */; };
+		FAFB7A862A03E3D4005ABF8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB7A852A03E3D4005ABF8D /* ViewController.swift */; };
+		FAFB7A892A03E3D4005ABF8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFB7A872A03E3D4005ABF8D /* Main.storyboard */; };
+		FAFB7A8E2A03E3D5005ABF8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFB7A8C2A03E3D5005ABF8D /* LaunchScreen.storyboard */; };
+		FAFB7A992A03E3D6005ABF8D /* RANEPA_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB7A982A03E3D6005ABF8D /* RANEPA_APPTests.swift */; };
+		FAFB7AA32A03E3D6005ABF8D /* RANEPA_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB7AA22A03E3D6005ABF8D /* RANEPA_APPUITests.swift */; };
+		FAFB7AA52A03E3D6005ABF8D /* RANEPA_APPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB7AA42A03E3D6005ABF8D /* RANEPA_APPUITestsLaunchTests.swift */; };
+		FAFB7AB72A07DBDE005ABF8D /* Tabbar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFB7AB62A07DBDE005ABF8D /* Tabbar.storyboard */; };
+		FAFB7AB92A07E5AB005ABF8D /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB7AB82A07E5AB005ABF8D /* TabbarController.swift */; };
+		FAFB7AC02A07E9FD005ABF8D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB7ABF2A07E9FC005ABF8D /* ProfileViewController.swift */; };
+		FAFB7AC22A07EA11005ABF8D /* FullScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB7AC12A07EA11005ABF8D /* FullScheduleViewController.swift */; };
+		FAFB7AC42A07EA1A005ABF8D /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB7AC32A07EA1A005ABF8D /* NewsViewController.swift */; };
+		FAFB7AC62A07EA46005ABF8D /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB7AC52A07EA46005ABF8D /* MessagesViewController.swift */; };
+		FAFB7AC82A07EA50005ABF8D /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB7AC72A07EA50005ABF8D /* JournalViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAFB7A952A03E3D6005ABF8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFB7A762A03E3D4005ABF8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAFB7A7D2A03E3D4005ABF8D;
+			remoteInfo = "RANEPA APP";
+		};
+		FAFB7A9F2A03E3D6005ABF8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFB7A762A03E3D4005ABF8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAFB7A7D2A03E3D4005ABF8D;
+			remoteInfo = "RANEPA APP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA2884302A12C5A600E06C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA2884322A12C9EA00E06C30 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		FA2884352A12D1AE00E06C30 /* headerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = headerView.xib; sourceTree = "<group>"; };
+		FA2884372A12D1DF00E06C30 /* headerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = headerView.swift; sourceTree = "<group>"; };
+		FAFB7A7E2A03E3D4005ABF8D /* RANEPA APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RANEPA APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFB7A812A03E3D4005ABF8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAFB7A832A03E3D4005ABF8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAFB7A852A03E3D4005ABF8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAFB7A882A03E3D4005ABF8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAFB7A8D2A03E3D5005ABF8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAFB7A8F2A03E3D5005ABF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFB7A942A03E3D6005ABF8D /* RANEPA APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RANEPA APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFB7A982A03E3D6005ABF8D /* RANEPA_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RANEPA_APPTests.swift; sourceTree = "<group>"; };
+		FAFB7A9E2A03E3D6005ABF8D /* RANEPA APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RANEPA APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFB7AA22A03E3D6005ABF8D /* RANEPA_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RANEPA_APPUITests.swift; sourceTree = "<group>"; };
+		FAFB7AA42A03E3D6005ABF8D /* RANEPA_APPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RANEPA_APPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAFB7AB62A07DBDE005ABF8D /* Tabbar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tabbar.storyboard; sourceTree = "<group>"; };
+		FAFB7AB82A07E5AB005ABF8D /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		FAFB7ABF2A07E9FC005ABF8D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FAFB7AC12A07EA11005ABF8D /* FullScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScheduleViewController.swift; sourceTree = "<group>"; };
+		FAFB7AC32A07EA1A005ABF8D /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		FAFB7AC52A07EA46005ABF8D /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		FAFB7AC72A07EA50005ABF8D /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAFB7A7B2A03E3D4005ABF8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFB7A912A03E3D6005ABF8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFB7A9B2A03E3D6005ABF8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA2884342A12D19E00E06C30 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				FA2884352A12D1AE00E06C30 /* headerView.xib */,
+				FA2884372A12D1DF00E06C30 /* headerView.swift */,
+			);
+			path = header;
+			sourceTree = "<group>";
+		};
+		FAFB7A752A03E3D4005ABF8D = {
+			isa = PBXGroup;
+			children = (
+				FAFB7A802A03E3D4005ABF8D /* RANEPA APP */,
+				FAFB7A972A03E3D6005ABF8D /* RANEPA APPTests */,
+				FAFB7AA12A03E3D6005ABF8D /* RANEPA APPUITests */,
+				FAFB7A7F2A03E3D4005ABF8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAFB7A7F2A03E3D4005ABF8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB7A7E2A03E3D4005ABF8D /* RANEPA APP.app */,
+				FAFB7A942A03E3D6005ABF8D /* RANEPA APPTests.xctest */,
+				FAFB7A9E2A03E3D6005ABF8D /* RANEPA APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFB7A802A03E3D4005ABF8D /* RANEPA APP */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB7AB52A07DBBB005ABF8D /* Tabbar */,
+				FAFB7A852A03E3D4005ABF8D /* ViewController.swift */,
+				FAFB7A872A03E3D4005ABF8D /* Main.storyboard */,
+				FAFB7AB12A03E61C005ABF8D /* Supported files */,
+				FAFB7A8C2A03E3D5005ABF8D /* LaunchScreen.storyboard */,
+			);
+			path = "RANEPA APP";
+			sourceTree = "<group>";
+		};
+		FAFB7A972A03E3D6005ABF8D /* RANEPA APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB7A982A03E3D6005ABF8D /* RANEPA_APPTests.swift */,
+			);
+			path = "RANEPA APPTests";
+			sourceTree = "<group>";
+		};
+		FAFB7AA12A03E3D6005ABF8D /* RANEPA APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB7AA22A03E3D6005ABF8D /* RANEPA_APPUITests.swift */,
+				FAFB7AA42A03E3D6005ABF8D /* RANEPA_APPUITestsLaunchTests.swift */,
+			);
+			path = "RANEPA APPUITests";
+			sourceTree = "<group>";
+		};
+		FAFB7AB12A03E61C005ABF8D /* Supported files */ = {
+			isa = PBXGroup;
+			children = (
+				FA2884302A12C5A600E06C30 /* Assets.xcassets */,
+				FAFB7A812A03E3D4005ABF8D /* AppDelegate.swift */,
+				FAFB7A832A03E3D4005ABF8D /* SceneDelegate.swift */,
+				FAFB7A8F2A03E3D5005ABF8D /* Info.plist */,
+			);
+			name = "Supported files";
+			sourceTree = "<group>";
+		};
+		FAFB7AB52A07DBBB005ABF8D /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB7ABE2A07E6DE005ABF8D /* ProfileStudent */,
+				FAFB7ABD2A07E6CB005ABF8D /* FullScheadule */,
+				FAFB7ABC2A07E6C0005ABF8D /* News */,
+				FAFB7ABB2A07E6A2005ABF8D /* Messages */,
+				FAFB7ABA2A07E689005ABF8D /* Journal */,
+				FAFB7AB62A07DBDE005ABF8D /* Tabbar.storyboard */,
+				FAFB7AB82A07E5AB005ABF8D /* TabbarController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		FAFB7ABA2A07E689005ABF8D /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB7AC72A07EA50005ABF8D /* JournalViewController.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		FAFB7ABB2A07E6A2005ABF8D /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB7AC52A07EA46005ABF8D /* MessagesViewController.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		FAFB7ABC2A07E6C0005ABF8D /* News */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB7AC32A07EA1A005ABF8D /* NewsViewController.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		FAFB7ABD2A07E6CB005ABF8D /* FullScheadule */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB7AC12A07EA11005ABF8D /* FullScheduleViewController.swift */,
+			);
+			path = FullScheadule;
+			sourceTree = "<group>";
+		};
+		FAFB7ABE2A07E6DE005ABF8D /* ProfileStudent */ = {
+			isa = PBXGroup;
+			children = (
+				FA2884342A12D19E00E06C30 /* header */,
+				FAFB7ABF2A07E9FC005ABF8D /* ProfileViewController.swift */,
+				FA2884322A12C9EA00E06C30 /* ProfileTableViewCell.swift */,
+			);
+			path = ProfileStudent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAFB7A7D2A03E3D4005ABF8D /* RANEPA APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFB7AA82A03E3D6005ABF8D /* Build configuration list for PBXNativeTarget "RANEPA APP" */;
+			buildPhases = (
+				FAFB7A7A2A03E3D4005ABF8D /* Sources */,
+				FAFB7A7B2A03E3D4005ABF8D /* Frameworks */,
+				FAFB7A7C2A03E3D4005ABF8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RANEPA APP";
+			packageProductDependencies = (
+			);
+			productName = "RANEPA APP";
+			productReference = FAFB7A7E2A03E3D4005ABF8D /* RANEPA APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAFB7A932A03E3D6005ABF8D /* RANEPA APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFB7AAB2A03E3D6005ABF8D /* Build configuration list for PBXNativeTarget "RANEPA APPTests" */;
+			buildPhases = (
+				FAFB7A902A03E3D6005ABF8D /* Sources */,
+				FAFB7A912A03E3D6005ABF8D /* Frameworks */,
+				FAFB7A922A03E3D6005ABF8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAFB7A962A03E3D6005ABF8D /* PBXTargetDependency */,
+			);
+			name = "RANEPA APPTests";
+			productName = "RANEPA APPTests";
+			productReference = FAFB7A942A03E3D6005ABF8D /* RANEPA APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAFB7A9D2A03E3D6005ABF8D /* RANEPA APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFB7AAE2A03E3D6005ABF8D /* Build configuration list for PBXNativeTarget "RANEPA APPUITests" */;
+			buildPhases = (
+				FAFB7A9A2A03E3D6005ABF8D /* Sources */,
+				FAFB7A9B2A03E3D6005ABF8D /* Frameworks */,
+				FAFB7A9C2A03E3D6005ABF8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAFB7AA02A03E3D6005ABF8D /* PBXTargetDependency */,
+			);
+			name = "RANEPA APPUITests";
+			productName = "RANEPA APPUITests";
+			productReference = FAFB7A9E2A03E3D6005ABF8D /* RANEPA APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAFB7A762A03E3D4005ABF8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FAFB7A7D2A03E3D4005ABF8D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					FAFB7A932A03E3D6005ABF8D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FAFB7A7D2A03E3D4005ABF8D;
+					};
+					FAFB7A9D2A03E3D6005ABF8D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FAFB7A7D2A03E3D4005ABF8D;
+					};
+				};
+			};
+			buildConfigurationList = FAFB7A792A03E3D4005ABF8D /* Build configuration list for PBXProject "RANEPA APP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAFB7A752A03E3D4005ABF8D;
+			packageReferences = (
+				FAFB7AB22A03E963005ABF8D /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
+			productRefGroup = FAFB7A7F2A03E3D4005ABF8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAFB7A7D2A03E3D4005ABF8D /* RANEPA APP */,
+				FAFB7A932A03E3D6005ABF8D /* RANEPA APPTests */,
+				FAFB7A9D2A03E3D6005ABF8D /* RANEPA APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAFB7A7C2A03E3D4005ABF8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFB7AB72A07DBDE005ABF8D /* Tabbar.storyboard in Resources */,
+				FA2884362A12D1AE00E06C30 /* headerView.xib in Resources */,
+				FAFB7A8E2A03E3D5005ABF8D /* LaunchScreen.storyboard in Resources */,
+				FA2884312A12C5A600E06C30 /* Assets.xcassets in Resources */,
+				FAFB7A892A03E3D4005ABF8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFB7A922A03E3D6005ABF8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFB7A9C2A03E3D6005ABF8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAFB7A7A2A03E3D4005ABF8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFB7A862A03E3D4005ABF8D /* ViewController.swift in Sources */,
+				FA2884382A12D1DF00E06C30 /* headerView.swift in Sources */,
+				FAFB7AC82A07EA50005ABF8D /* JournalViewController.swift in Sources */,
+				FAFB7AB92A07E5AB005ABF8D /* TabbarController.swift in Sources */,
+				FA2884332A12C9EA00E06C30 /* ProfileTableViewCell.swift in Sources */,
+				FAFB7AC22A07EA11005ABF8D /* FullScheduleViewController.swift in Sources */,
+				FAFB7AC02A07E9FD005ABF8D /* ProfileViewController.swift in Sources */,
+				FAFB7AC42A07EA1A005ABF8D /* NewsViewController.swift in Sources */,
+				FAFB7A822A03E3D4005ABF8D /* AppDelegate.swift in Sources */,
+				FAFB7AC62A07EA46005ABF8D /* MessagesViewController.swift in Sources */,
+				FAFB7A842A03E3D4005ABF8D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFB7A902A03E3D6005ABF8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFB7A992A03E3D6005ABF8D /* RANEPA_APPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFB7A9A2A03E3D6005ABF8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFB7AA32A03E3D6005ABF8D /* RANEPA_APPUITests.swift in Sources */,
+				FAFB7AA52A03E3D6005ABF8D /* RANEPA_APPUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAFB7A962A03E3D6005ABF8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAFB7A7D2A03E3D4005ABF8D /* RANEPA APP */;
+			targetProxy = FAFB7A952A03E3D6005ABF8D /* PBXContainerItemProxy */;
+		};
+		FAFB7AA02A03E3D6005ABF8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAFB7A7D2A03E3D4005ABF8D /* RANEPA APP */;
+			targetProxy = FAFB7A9F2A03E3D6005ABF8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAFB7A872A03E3D4005ABF8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFB7A882A03E3D4005ABF8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAFB7A8C2A03E3D5005ABF8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFB7A8D2A03E3D5005ABF8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAFB7AA62A03E3D6005ABF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				ASSETCATALOG_COMPILER_STANDALONE_ICON_BEHAVIOR = default;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAFB7AA72A03E3D6005ABF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				ASSETCATALOG_COMPILER_STANDALONE_ICON_BEHAVIOR = default;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAFB7AA92A03E3D6005ABF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				ASSET_PACK_MANIFEST_URL_PREFIX = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D95N3D73CL;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_ON_DEMAND_RESOURCES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RANEPA APP/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "РАНХиГС";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vek.RANEPA-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAFB7AAA2A03E3D6005ABF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				ASSET_PACK_MANIFEST_URL_PREFIX = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D95N3D73CL;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_ON_DEMAND_RESOURCES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RANEPA APP/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "РАНХиГС";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vek.RANEPA-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAFB7AAC2A03E3D6005ABF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vek.RANEPA-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RANEPA APP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RANEPA APP";
+			};
+			name = Debug;
+		};
+		FAFB7AAD2A03E3D6005ABF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vek.RANEPA-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RANEPA APP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RANEPA APP";
+			};
+			name = Release;
+		};
+		FAFB7AAF2A03E3D6005ABF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vek.RANEPA-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RANEPA APP";
+			};
+			name = Debug;
+		};
+		FAFB7AB02A03E3D6005ABF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vek.RANEPA-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RANEPA APP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAFB7A792A03E3D4005ABF8D /* Build configuration list for PBXProject "RANEPA APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFB7AA62A03E3D6005ABF8D /* Debug */,
+				FAFB7AA72A03E3D6005ABF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFB7AA82A03E3D6005ABF8D /* Build configuration list for PBXNativeTarget "RANEPA APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFB7AA92A03E3D6005ABF8D /* Debug */,
+				FAFB7AAA2A03E3D6005ABF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFB7AAB2A03E3D6005ABF8D /* Build configuration list for PBXNativeTarget "RANEPA APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFB7AAC2A03E3D6005ABF8D /* Debug */,
+				FAFB7AAD2A03E3D6005ABF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFB7AAE2A03E3D6005ABF8D /* Build configuration list for PBXNativeTarget "RANEPA APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFB7AAF2A03E3D6005ABF8D /* Debug */,
+				FAFB7AB02A03E3D6005ABF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FAFB7AB22A03E963005ABF8D /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = FAFB7A762A03E3D4005ABF8D /* Project object */;
+}
